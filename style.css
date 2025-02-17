@@ -30,3 +30,122 @@
     --fonte2: arial, verdana, sans-serif;
     --fonte3: 'android', sans-serif;
 }
+
+header {
+    background-image: linear-gradient(to top, black, var(--cor3));    
+    height: 200px;
+    box-shadow: 1px 1px 2px 1px black;
+}
+
+header > h1, p {
+    color: var(--cor5);
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 30px;
+    font-size: 3em;
+    font-family: var(--fonte3);
+   
+}
+
+header > p{
+    padding-top: 15px;
+    font-size: 1.6em;
+}
+
+nav {
+    background-color: black;
+    padding: 0 0 5px 5px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte2);
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 2px;
+    transition-duration: .2s;
+    padding-right: 5px;
+}
+
+nav > a:hover {
+    background-color: var(--cor5);
+    color: var(--cor1);
+}
+
+body {
+    background-image: linear-gradient(to top, black,var(--cor2), var(--cor3));
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.205);
+}
+
+main h1 {
+    font-size: 2.5em;
+    background-color: black;
+    color: white;
+    font-family: var(--fonte3);
+    padding: 6px;
+}
+
+main h2 {
+    padding: 12px;
+    text-align: center;
+    font-family: var(--fonte3);
+    font-size: 2em;
+}
+main a {
+    text-decoration: none;
+    transition-duration: .3s;
+    color: black;
+    font-weight: bolder;
+}
+main a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    text-decoration: underline;
+}
+main p {
+    color: black;
+    padding: 10px;
+    font-size: 1.1em;
+    text-align: justify;
+    font-family: var(--fonte2);
+}
+
+.logo1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border: solid 5px black;
+    margin-right: 30px;
+}
+
+footer {
+    padding: 20px;
+    font-size: 1.3em;
+    font-family: var(--fonte2);
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    transition-duration: .3s;
+}
+
+footer a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    text-decoration: underline;
+}
+
